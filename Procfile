@@ -1,1 +1,1 @@
-web: gunicorn OneWayMarket.wsgi:application; python manage.py collectstatic --noinput; python manage.py run_gunicorn -b "0.0.0.0:$PORT" -w2
+web: gunicorn OneWayMarket.wsgi:app; python manage.py run_gunicorn -b "0.0.0.0:$PORT" -w2
