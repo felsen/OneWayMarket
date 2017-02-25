@@ -3,3 +3,7 @@ pandas==0.17.1
 BeautifulSoup4
 fake-useragent==0.1.2
 lxml
+gunicorn==19.4.1
+dj-database-url==0.3.0
+dj-static==0.0.6
+django-filter==0.10.0
