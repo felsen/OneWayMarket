@@ -37,8 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Nifty50',
-    'django_extensions',
+    'Nifty50'
 ]
 
 MIDDLEWARE = [
